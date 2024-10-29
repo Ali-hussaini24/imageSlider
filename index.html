@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Image Slider </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/771729e978.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <nav class="nav-bar">
+                <h3>Online Shop</h3>
+                <div class="nav-icon-box">
+                    <i class="fa fa-bell"></i>
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="product-container">
+                <div class="product-header">
+                    <h3 class="section-title">Our Services</h3>
+                    <p class="product-told">this information are so important to know us and trust on us please read carefully.</p>
+                </div>
+
+                <div class="product-wrapper">
+                    <div class="product-item orange">
+                        <div class="hover-border border-orange"></div>
+                        <h4 class="service-name">UI/UX Design</h5>
+                        <p class="service-text">
+                            Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quidem, excepturi.
+                        </p>
+                        <div class="service-icon">
+                            <i class="fa-brands fa-figma orange-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-item blue">
+                        <div class="hover-border border-blue"></div>
+                        <h4 class="service-name">Front-End</h4>
+                        <p class="service-text">
+                            Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quidem, excepturi.
+                        </p>
+                        <div class="service-icon">
+                            <i class="fa-solid fa-pen-ruler blue-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-item sky">
+                        <div class="hover-border border-sky"></div>
+                        <h4 class="service-name">Back-End</h4>
+                        <p class="service-text">
+                            Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quidem, excepturi.
+                        </p>
+                        <div class="service-icon">
+                            <i class="fa-solid fa-server sky-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="image/image-1.jpg" alt="sky">
+                    <div class="customer-info">
+                        <div>
+                            <h6 class="customer-name">Nina deyia</h6>
+                            <p class="customer-job">Frontend Developer</p>
+                        </div>
+                        <a href="#" class="see-more-btn">See More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/image-2.jpg" alt="sky">
+                    <div class="customer-info">
+                        <div>
+                            <h6 class="customer-name">Rashi kula</h6>
+                            <p class="customer-job">UI/UX Design</p>
+                        </div>
+                        <a href="#" class="see-more-btn">See More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/image-3.jpg" alt="sky">
+                    <div class="customer-info">
+                        <div>
+                            <h6 class="customer-name">Fereda handi</h6>
+                            <p class="customer-job">Frontend Developer</p>
+                        </div>
+                        <a href="#" class="see-more-btn">See More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/image-4.jpg" alt="sky">
+                    <div class="customer-info">
+                        <div>
+                            <h6 class="customer-name">Tara nika</h6>
+                            <p class="customer-job">SEO</p>
+                        </div>
+                        <a href="#" class="see-more-btn">See More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/image-5.jpg" alt="sky">
+                    <div class="customer-info">
+                        <div>
+                            <h6 class="customer-name">Reza Jan</h6>
+                            <p class="customer-job">Backend Developer</p>
+                        </div>
+                        <a href="#" class="see-more-btn">See More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/image-6.jpg" alt="sky">
+                    <div class="customer-info">
+                        <div>
+                            <h6 class="customer-name">Reza Jan</h6>
+                            <p class="customer-job">Frontend Developer</p>
+                        </div>
+                        <a href="#" class="see-more-btn">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
